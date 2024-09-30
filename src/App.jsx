@@ -2,8 +2,8 @@
 Archivo : index.html
 Autor : Paolo Jesus Mansilla Ttito
 Fecha : 29/09/2024 
-Descripción : Utilizamos componentes de Material UI para construir el componente 
-Header y lo importaremos en App.jsx.
+Descripción : Utilizamos el componente List de Material UI junto con map() 
+para renderizar una lista de elementos.
 */
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
@@ -31,3 +31,4 @@ function App() {
 }
 
 export default App;
+
