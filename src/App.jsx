@@ -10,7 +10,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import React from 'react';
 import Header from './Header';
-import ContadorClase from './components/ContadorClase';
+import ContadorClase from '.ContadorClase';
 
 function App() {
   return (
