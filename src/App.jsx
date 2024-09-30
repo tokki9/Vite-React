@@ -2,10 +2,8 @@
 Archivo : index.html
 Autor : Paolo Jesus Mansilla Ttito
 Fecha : 29/09/2024 
-Descripción : utilizamos React Developer Tools para depurar y verificar 
-el estado y props de los componentes en tiempo real, junto con las herramientas 
-de Visual Studio Code para gestionar el flujo del código y automatizar el despliegue 
-en GitHub Pages.
+Descripción : Utilizamos componentes de Material UI para construir el componente 
+Header y lo importaremos en App.jsx.
 */
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
@@ -13,16 +11,23 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import React from 'react';
 import Header from './Header';
+import { List, ListItem, ListItemText } from '@mui/material';
 
 function App() {
+  const tecnologias = ['React', 'Vite', 'Material UI'];
+
   return (
     <div>
-      <Header titulo="Página Principal con Vite y Material UI" />
-      <p>Esta es la página principal con un header de Material UI.</p>
+      <Header titulo="Tecnologías Usadas" />
+      <List>
+        {tecnologias.map((tecnologia, index) => (
+          <ListItem key={index}>
+            <ListItemText primary={tecnologia} />
+          </ListItem>
+        ))}
+      </List>
     </div>
   );
 }
 
 export default App;
-
-
