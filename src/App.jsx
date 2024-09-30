@@ -8,7 +8,7 @@ function App() {
 
   return (
     <h1>
-      ya aprendi como hacer el enlace externo
+      Primera imagen de la pagina web con enlace externo usando Vite, React y Github
     </h1>
   )
 }
