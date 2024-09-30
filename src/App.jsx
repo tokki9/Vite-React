@@ -11,16 +11,18 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import React from 'react';
 import Header from './Header';
 
 function App() {
   return (
-    <div> 
-      <Header />  //Aquí estamos usando JSX para renderizar el componente Header
-      <p>Esta es la página principal.</p>  
+    <div>
+      <Header titulo="Página Principal con Vite y Material UI" />
+      <p>Esta es la página principal con un header de Material UI.</p>
     </div>
   );
 }
 
 export default App;
+
 
