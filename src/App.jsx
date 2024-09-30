@@ -1,3 +1,9 @@
+/* 
+Archivo : index.html
+Autor : Paolo Jesus Mansilla Ttito
+Fecha : 29/09/2024 
+Descripción : Creacion de pagina con enlace externo (No LocalHost)
+*/
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
@@ -8,7 +14,7 @@ function App() {
 
   return (
     <h1>
-      Primera imagen de la pagina web con enlace externo usando Vite, React y Github
+      Segunda imagen de la pagina web con enlace externo usando Vite, React y Github
     </h1>
   )
 }
