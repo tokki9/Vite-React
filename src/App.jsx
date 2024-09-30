@@ -2,8 +2,8 @@
 Archivo : index.html
 Autor : Paolo Jesus Mansilla Ttito
 Fecha : 29/09/2024 
-Descripción : Utilizamos el componente List de Material UI junto con map() 
-para renderizar una lista de elementos.
+Descripción : Utilizamos componentes de Material UI para construir el componente 
+Header y lo importaremos en App.jsx.
 */
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
@@ -14,7 +14,7 @@ import Header from './Header';
 import { List, ListItem, ListItemText } from '@mui/material';
 
 function App() {
-  const tecnologias = ['React', 'Vite', 'Material UI'];
+  const tecnologias = ['React', 'Vite', 'Material UI', 'Github'];
 
   return (
     <div>
@@ -31,4 +31,3 @@ function App() {
 }
 
 export default App;
-
