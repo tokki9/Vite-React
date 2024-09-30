@@ -8,31 +8,15 @@ para incrementar un contador.
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import React, { useState } from 'react';
+import React from 'react';
 import Header from './Header';
-import { Button, Typography } from '@mui/material';
+import ContadorClase from './components/ContadorClase';
 
 function App() {
-  const [contador, setContador] = useState(0);
-
-  const incrementar = () => {
-    setContador(contador + 1);
-  };
-
   return (
     <div>
-      <Header titulo="Contador con Evento" />
-      <Typography variant="h4" component="div" sx={{ marginTop: 2 }}>
-        Contador: {contador}
-      </Typography>
-      <Button 
-        variant="contained" 
-        color="primary" 
-        onClick={incrementar} 
-        sx={{ marginTop: 2 }}
-      >
-        Incrementar
-      </Button>
+      <Header titulo="Página de Práctica: Estado con Clases y Hooks" />
+      <ContadorClase />
     </div>
   );
 }
