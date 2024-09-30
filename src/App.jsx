@@ -10,13 +10,11 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <h1>
-      Segunda imagen de la pagina web con enlace externo usando Vite, React y Github
-    </h1>
-  )
+    <div>
+      <h1>Hola, esta es mi página web React con Vite</h1>
+    </div>
+  );
 }
 
-export default App
+export default App;
