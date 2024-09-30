@@ -2,10 +2,9 @@
 Archivo : index.html
 Autor : Paolo Jesus Mansilla Ttito
 Fecha : 29/09/2024 
-Descripción : Utilizamos componentes de Material UI para construir el componente 
-Header y lo importaremos en App.jsx.
+Descripción : Agregaremos un boton de Material UI con un evento onClick 
+para incrementar un contador.
 */
-import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
