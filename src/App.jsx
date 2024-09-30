@@ -9,6 +9,7 @@ function App() {
   return (
     <h1>
       Primer curso de react
+      ya aprendi como hacer el enlace externo
     </h1>
   )
 }
