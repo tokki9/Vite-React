@@ -12,7 +12,9 @@ import './App.css'
 function App() {
   return (
     <div>
-      <h1>Hola, esta es mi página web React con Vite</h1>
+      <h1>Hola, esta es mi página web React con Vite con enlace externo
+        de Github
+      </h1>
     </div>
   );
 }
